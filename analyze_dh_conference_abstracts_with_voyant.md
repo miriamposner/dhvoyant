@@ -5,6 +5,8 @@ Let's see how far we can get by using text analysis to understand recent scholar
 
 Click [here](https://voyant-tools.org/?corpus=b7ccfc7da3f523ff503d5f20d82427c1&amp;stopList=keywords-1d616089b51c15c9ed1d6510656f04f7&amp;panels=corpusterms,termsberry,trends,documents,contexts) to open up Voyant pre-loaded with our texts.
 
+Thank you to Silvia E. Gutiérrez De la Torre for [assembling the corpus](https://zenodo.org/record/1403230) we're using.
+
 ### 1. What am I looking at? (1)
 
 ![What am I looking at? (1)](steps-analyze_dh_conference_abstracts_with_voyant/step-0.jpeg)
