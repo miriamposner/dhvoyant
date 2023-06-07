@@ -1,9 +1,9 @@
 
 # Analyze DH conference abstracts with Voyant
 
-Let's see how far we can get by using text analysis to understand recent scholarship in digital humanities! We'll use Voyant, a kind of Swiss Army knife for text analysis, to analyze the abstracts of papers presented at the annual Digital Humanities conference sponsored by the Alliance for Digital Humanities Organizations.
+Let's see how far we can get by using text analysis to understand recent scholarship in digital humanities! We'll use Voyant, a kind of Swiss Army knife for text analysis, to analyze the abstracts of papers presented at the [annual Digital Humanities conference](https://adho.org/conference/) sponsored by the Alliance for Digital Humanities Organizations.
 
-Click [here](https://voyant-tools.org/?corpus=b7ccfc7da3f523ff503d5f20d82427c1&amp;stopList=keywords-1d616089b51c15c9ed1d6510656f04f7&amp;panels=corpusterms,termsberry,trends,documents,contexts) (rel=undefined target=undefined) to open up Voyant pre-loaded with our texts.
+Click [here](https://voyant-tools.org/?corpus=b7ccfc7da3f523ff503d5f20d82427c1&amp;stopList=keywords-1d616089b51c15c9ed1d6510656f04f7&amp;panels=corpusterms,termsberry,trends,documents,contexts) to open up Voyant pre-loaded with our texts.
 
 ### 1. What am I looking at? (1)
 
@@ -11,7 +11,7 @@ Click [here](https://voyant-tools.org/?corpus=b7ccfc7da3f523ff503d5f20d82427c1&a
 
 This somewhat overwhelming array of panels constitutes the interface for the text-analysis tool Voyant. Each panel offers a different tool: a way of analyzing the same set of documents. And there are more tools, too! Voyant allows you to swap tools in and out of the panels in order to jump between different ways of seeing the same text.
 
-So what text are we looking at? I've pre-loaded Voyant with a **corpus** (a collection of documents): 13 different text files, one for each year between 2005 and 2018 (except 2015 is missing for some reason). Each "document" is the book of abstracts for that year's international Digital Humanities conference. (A conference abstract is a short synopsis of the presentation the author plans to give. [Here's](https://zenodo.org/record/1403230) (rel=undefined target=undefined) where I got the documents.)
+So what text are we looking at? I've pre-loaded Voyant with a **corpus** (a collection of documents): 13 different text files, one for each year between 2005 and 2018 (except 2015 is missing for some reason). Each "document" is the book of abstracts for that year's international Digital Humanities conference. (A conference abstract is a short synopsis of the presentation the author plans to give. [Here's](https://zenodo.org/record/1403230) where I got the documents.)
 
 ### 2. What am I looking at? (2)
 
@@ -56,7 +56,7 @@ Try some of the buttons in the other panels. Remember, you can learn what any to
 
 When I told you that I preloaded Voyant with the books of abstracts, I didn't tell you the whole truth. In fact, when you load documents into a text analysis tool without modification, you'll often be overwhelmed by the words that occur with a great deal of frequency: words like "the," "and," "an," "a," etc. They can make it hard to see more distinctive words.
 
-In order to get around this problem, I loaded Voyant with [**stopwords**](https://kavita-ganesan.com/what-are-stop-words/) (rel=undefined target=undefined): a list of terms to ignore. If you click on the **Options** icon at the top of any panel, you'll see that there are some options for Stopwords. You can click on **Edit List** to see which stopwords I've included. (They come from standard lists of stopwords in [English](https://gist.github.com/sebleier/554280) (rel=undefined target=undefined), [French](https://github.com/stopwords-iso/stopwords-fr/blob/master/stopwords-fr.txt) (rel=undefined target=undefined), and [Spanish](https://github.com/stopwords-iso/stopwords-es/blob/master/stopwords-es.txt) (rel=undefined target=undefined), since some abstracts are in other languages.) You can add your own stopwords by putting the term on a new line in the stopwords list. For example, you can get rid of the terms "digital" and "humanities" by putting each word on its own line.
+In order to get around this problem, I loaded Voyant with [**stopwords**](https://kavita-ganesan.com/what-are-stop-words/): a list of terms to ignore. If you click on the **Options** icon at the top of any panel, you'll see that there are some options for Stopwords. You can click on **Edit List** to see which stopwords I've included. (They come from standard lists of stopwords in [English](https://gist.github.com/sebleier/554280), [French](https://github.com/stopwords-iso/stopwords-fr/blob/master/stopwords-fr.txt), and [Spanish](https://github.com/stopwords-iso/stopwords-es/blob/master/stopwords-es.txt), since some abstracts are in other languages.) You can add your own stopwords by putting the term on a new line in the stopwords list. For example, you can get rid of the terms "digital" and "humanities" by putting each word on its own line.
 
 ### 6. Switch it up again
 
@@ -82,7 +82,7 @@ What happens if you increase the number of topics?
 
 Can you find any patterns? Do certain topics appear in large proportion in some years but not in others?
 
-You can see how topic modeling might be usefully applied by looking at [a topic model for the journal *Signs*](https://signsat40.signsjournal.org/topic-model/) (rel=undefined target=undefined).
+You can see how topic modeling might be usefully applied by looking at [a topic model for the journal *Signs*](https://signsat40.signsjournal.org/topic-model/).
 
 ### 8. Your turn!
 
